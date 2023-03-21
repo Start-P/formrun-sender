@@ -5,3 +5,4 @@ Todo:
 - [ ] Ask about proxies  
 - [ ] Retrieving target URL from a text file  
 - [ ] Get send data from a json file  
+- [ ] Send random fake infomation  
