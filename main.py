@@ -43,7 +43,7 @@ class FormrunSpammer():
         
         result = []
         for table in table_list:
-            table_dict = ",".join(table.split(",")[:-1]) + "}"
+            table_dict = ",".join(table.split(",")[:2]) + "}"
             table_dict = json.loads(table_dict)
             result.append(table_dict)
         
