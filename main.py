@@ -63,6 +63,7 @@ class FormrunSpammer():
             response = requests.post(self.url, data=data, headers=self.headers)
             if response.status_code == 201:
                 success += 1
+
             else:
                 failed += 1
 
